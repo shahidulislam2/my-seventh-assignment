@@ -18,17 +18,17 @@ const App = () => {
 
   return (
     <>
-      <NavBar></NavBar>
+<NavBar></NavBar>
 
 
-
+    
       <Suspense>
-        <Main fetchPromise={fetchPromise}></Main>
-      </Suspense>
+        <Main  fetchPromise={fetchPromise}></Main>
+        </Suspense>
 
 
-      <Footer></Footer>
-      <ToastContainer position="top-right" />
+<Footer></Footer>
+      <ToastContainer position="top-right"  />
 
     </>
   );
